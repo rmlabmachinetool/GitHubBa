@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Properties">
+      <UniqueIdentifier>{0964e815-cc55-443e-97c3-0e1c22f64173}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,6 +27,9 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>Properties</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -32,5 +38,15 @@
     <ClCompile Include="LoadImageTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PropertiesSetting\DebugWin32.props" />
+    <None Include="PropertiesSetting\DebugX64.props" />
+    <None Include="PropertiesSetting\ReleaseWin32.props" />
+    <None Include="PropertiesSetting\ReleaseX64.props" />
+    <None Include="PropertySheet.props" />
   </ItemGroup>
 </Project>
